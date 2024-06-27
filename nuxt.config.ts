@@ -1,8 +1,5 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  nitro: {
-    preset: "/workshops/nuxt/",
-  },
   devtools: { enabled: true },
   modules: ["@nuxtjs/tailwindcss"],
   app: {
